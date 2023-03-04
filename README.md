@@ -1,2 +1,2 @@
 # Osu
-[Play]()
+[Play](https://ledanos.github.io/Osu/)
