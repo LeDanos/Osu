@@ -29,7 +29,7 @@ play.onclick=()=>{
     david.style.display="none"
     musicCredit.style.display="none"
     music.volume=0.5;
-    music.play()
+    music.play();
     setInterval(() => {
         random=Math.random()
         x=random*90+"%"
