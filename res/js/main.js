@@ -13,6 +13,8 @@ const scoreCount = document.getElementById("scoreCount")
 const lost = document.getElementById("lost")
 const lostScore = document.getElementById("lostScore")
 const david = document.getElementById("david")
+const music = document.getElementById("music")
+const musicCredit = document.getElementById("musicCredit")
 
 let number=1
 let random=0
@@ -25,6 +27,9 @@ play.onclick=()=>{
     play.style.display="none"
     game.style.display="block"
     david.style.display="none"
+    musicCredit.style.display="none"
+    music.volume=0.5;
+    music.play()
     setInterval(() => {
         random=Math.random()
         x=random*90+"%"
@@ -241,6 +246,9 @@ david.onclick=()=>{
     play.style.display="none"
     game.style.display="block"
     david.style.display="none"
+    musicCredit.style.display="none"
+    music.volume=0.5;
+    music.play()
     setInterval(() => {
         random=Math.random()
         x=random*90+"%"
